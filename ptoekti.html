@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" defer>
+    <link rel="stylesheet" href="blob.css" defer>
+</head>
+<body>
+    <header >
+        <section class = "paragraf proekti header" >
+            <p  >Проекти
+
+            </p>
+        </section>
+
+        <nav class="button">
+            <a href="index.html">Начало</a>
+            <a href="ptoekti.html">Проекти</a>
+            <a href="kontacti.html">Контакти</a>
+          </nav>
+       
+    </header>
+
+    <section class="kickhub">
+
+
+        <p>Допринасям за развиването на kickhubbg заедно със моите приятели-съученици от 2023 година   </p>
+        <a href="https://kickhubbg.com/bg-bg">kickhubbg</a>
+        <p>
+            тук са и малкото ми github проекти 
+        </p>
+        <a href="kontacti.html">Контакти</a>
+
+
+        
+
+
+
+    </section>
+
+</section>
+
+
+<footer>
+    <p>&copy; 2024 Ивайло Шомов. Всички права запазени.</p>
+    <div class="social-links">
+        <a href="https://www.facebook.com/profile.php?id=100039882498126&locale=bg_BG" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/_shomov_/" target="_blank">Instagram</a>
+    </div>
+  </footer>
+
+
+</body>
+
+<div class="blob"></div>
+
+<script>
+    var cursor = document.querySelector('.blob');
+  
+  document.addEventListener('mousemove', function(e){
+  var x = e.clientX;
+  var y = e.clientY;
+  cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`
+  });
+  </script>
+</html>

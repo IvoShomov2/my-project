@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="blob.css">
+
+</head>
+
+<body>
+
+    <header>
+      <div class="logo">
+        <img src="./my_logo_-removebg-preview.png" alt="Logo" />
+      </div>
+  
+      <div class="header-content">
+        <h1>Ивайло Шомов</h1>
+      </div>
+  
+      <nav class="button">
+        <a href="index.html">Начало</a>
+        <a href="ptoekti.html">Проекти</a>
+        <a href="kontacti.html">Контакти</a>
+      </nav>
+  </header>
+
+
+  <section class="about ">
+    <p class="p1">Добре дошли в моя личен сайт </p>
+    <h2>За мен</h2>
+    <p>Аз съм начинаещ програмист с опит в СофтУни БУДИТЕЛ и се стремя в това да развия уменията си с помощта на моите
+      учители и приятели защото имам още много за учене но най важното е да не се отказвам </p>
+    <p>Обичам да излизам с приятели и да се забавлявам. Вярвам че с много упорита работа и постояннство ще успея да се
+      науча и в живота ще мога да се занимавам прафесионално с програмиране. </p>
+    </section>
+
+ 
+
+
+</body>
+
+<footer>
+  <p>&copy; 2024 Ивайло Шомов. Всички права запазени.</p>
+  <div class="social-links">
+      <a href="https://www.facebook.com/profile.php?id=100039882498126&locale=bg_BG" target="_blank">Facebook</a>
+      <a href="https://www.twitter.com" target="_blank">Twitter</a>
+      <a href="https://www.instagram.com/_shomov_/" target="_blank">Instagram</a>
+  </div>
+</footer>
+
+<div class="blob"></div>
+
+<script>
+  var cursor = document.querySelector('.blob');
+
+document.addEventListener('mousemove', function(e){
+var x = e.clientX;
+var y = e.clientY;
+cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`
+});
+</script>
+
+</html>
