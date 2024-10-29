@@ -1,0 +1,204 @@
+body {
+    background-color: rgba(18, 18, 18, 0.999); /* По-тъмен фон */
+}
+
+h1 {
+    color: #e0e0e0; /* Светъл цвят */
+    text-align: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(41, 39, 39, 0.726); /* Същият фон като за about и footer */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Разделя елементите */
+    border-radius: 50px;
+    border: 3px solid limegreen; /* Зелена рамка */
+}
+
+header .logo {
+    width: 60px; /* Размер на логото */
+    height: auto;
+}
+
+.header-content {
+    margin: 0 auto; /* Центрира хедъра */
+    display: flex;
+    justify-content: center; /* Центрира h1 */
+}
+
+nav {
+    display: flex;
+    gap: 15px; /* Разстояние между бутоните */
+}
+
+
+.about {
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(34, 34, 34, 0.581); /* Малко по-светъл фон за секции */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.579); /* По-изразителна сянка */
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+   
+ 
+}
+
+p {
+    font-size: 1.3em;
+    line-height: 1.6;
+    color: #f0f0f0; /* Светъл цвят на текста */
+    
+}
+
+a {
+    font-size: 1em;
+    text-decoration: none;
+    color: white; /* Промяна на цвета на текста */
+    padding: 10px 15px; /* Подобрено padding */
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #28a745; /* Зелено */
+    border-radius: 25px; /* Овални бутони */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+   
+}
+
+a:hover {
+    background-color: limegreen; /* По-тъмен зелен при задържане */
+    color: white;
+    text-decoration: underline;
+  
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    
+    color: white;
+    transition: background-color 0.3s ease;
+  
+}
+
+
+
+.kickhub {
+    margin: 20px auto;  
+    padding: 20px;
+    background-color: rgba(34, 34, 34, 0.214);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255); /* Промяна на цвета на текста в kickhub */
+    text-align: center;
+
+  
+    
+}
+
+nav a:hover {
+    background-color: #ffffff; /* Светъл фон при задържане */
+    color: black;
+    border-radius: 50px;
+}
+footer {
+    background-color: rgb(34, 34, 34); /* По-тъмен фон */
+    color: white; /* Цвят на текста */
+    padding: 20px; /* Разстояние около текста */
+    text-align: center; /* Центриран текст */
+    margin-top: 200px; /* Разстояние от предходния елемент */
+    border-top: 5px solid limegreen; /* Лента отгоре */
+}
+
+footer p {
+    margin: 10px 0; /* Разстояние между параграфите */
+    color: white;
+}
+
+footer .social-links {
+    margin-top: 10px; /* Разстояние над линковете за социални мрежи */
+}
+
+footer .social-links a {
+    color: white; /* Цвят на линковете */
+    margin: 0 10px; /* Разстояние между линковете */
+    text-decoration: none; /* Без подчертаване */
+    transition: color 0.3s; /* Преход за цвета */
+}
+
+
+ 
+.paragraf{
+    text-align: center;
+    margin: 0px;
+}
+
+form {
+   
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  
+    
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #f8f8f8;
+}
+
+form input[type="text"],
+
+form input[type="email"],
+
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: rgba(255, 255, 255, 0.993);
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+section.butoni {
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+section.butoni a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+section.butoni a:hover {
+    color: #ffffff;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
